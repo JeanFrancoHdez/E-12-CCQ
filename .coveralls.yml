@@ -1,0 +1,4 @@
+service_name: github-actions
+repo_token: ${COVERALLS_TOKEN}
+coverage_clover: backend/coverage/clover.xml
+flag_name: unit-tests
