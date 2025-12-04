@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "concurrently \"npm --prefix backend start\" \"npm --prefix frontend run dev\"",
     "backend": "npm --prefix backend start",
-    "frontend": "npm --prefix frontend run dev"
+    "frontend": "npm --prefix frontend run dev",
+    "test": "npm run test --prefix backend",
+    "test:coverage": "npm run test:coverage --prefix backend"
   },
   "dependencies": {
     "@types/pg": "^8.15.6",
